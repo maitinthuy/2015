@@ -12,7 +12,7 @@ catch(Exception $e){
 
 
 $timkiem =$_POST["timkiem"];
-$sql ="select * from book where book_name like '$timkiem'  ";
+$sql ="select * from book where book_name like '%$timkiem%'  ";
 $stm = $pdh->prepare($sql);
 $stm->bindValue("timkiem","$timkiem");
 $stm->execute();//thực thi câu sql
