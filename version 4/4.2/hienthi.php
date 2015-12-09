@@ -7,7 +7,7 @@
 
 <?php
 
-$pdo = new PDO("mysql:host=mysql.hostinger.vn; dbname=u667511593_book"  , "u667511593_book"  , "123456");
+$pdo = new PDO("mysql:host=mysql.hostinger.vn; dbname=u667511593_book","u667511593_book","123456");
 $pdo->query("set names 'utf8' ");
 $sql="select Count(*) as dem from book ";
 $stm = $pdo->query($sql);
