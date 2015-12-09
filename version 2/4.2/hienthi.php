@@ -49,7 +49,7 @@ $arr = $stm->fetchAll(PDO::FETCH_ASSOC);
     <td><?php echo $r2["book_name"]; ?></td>
     <td><?php echo $r2["description"]; ?></td>
     <td><?php echo $r2["price"]; ?></td>
-    <td><img src="<?php echo $r2["img"]; ?>" height="100px" width="100px" /></td>
+    <td><img src="hinh/<?php echo $r2["img"]; ?>" height="100px" width="100px" /></td>
     <td><?php echo $r2["pub_id"]; ?></td>
     <td><?php echo $r2["cat_id"]; ?></td>
     <td><a href="delete.php?book_id=<?php echo $r2["book_id"]; ?> ">Xóa</a></td>
