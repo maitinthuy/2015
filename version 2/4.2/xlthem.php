@@ -41,5 +41,5 @@ echo "<br>";
 
 
 <script >
-//window.location="hienthi.php";
+window.location="hienthi.php";
 </script>
