@@ -15,7 +15,7 @@ $arr = $stm->fetchAll(PDO::FETCH_ASSOC);
 
 $stm = $pdh->prepare($sql);
 $stm->execute($arr);
-//$n = $stm->rowCount();
+$n = $stm->rowCount();
 if ($n>0) 
 { 
 	$thongbao="Loi xóa! ";
